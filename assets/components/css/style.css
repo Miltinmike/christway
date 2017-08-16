@@ -1,0 +1,466 @@
+/*****************************************
+*  Table of Content
+*  1.   Color Pallete
+*  2.   Header
+*  3.   Navigation 
+*  4.   Typography
+*
+******************************************/
+
+
+/*****************************************
+*   Color Palette
+******************************************/
+.dark-primary-color    { background: #00796B; }
+.default-primary-color { background: #009688; }
+.light-primary-color   { background: #B2DFDB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #8BC34A; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+/*****************************************
+*   font-family: 'Caveat Brush', cursive;
+*   font-family: 'Roboto', sans-serif;
+*   font-family: 'Lato', sans-serif;
+******************************************/
+
+/*****************************************
+*  Body Settings
+******************************************/
+body{
+    font-family: 'Lato', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+/*****************************************
+*  Utility
+******************************************/
+.p-10{
+    padding: 10px !important;
+}
+.p-0{
+    padding: 0;
+}
+.p-l-0{
+    padding-left: 0 !important;
+}
+.p-5{
+    padding: 5px;
+}
+.p-t-b-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.m-b-20{
+    margin-bottom: 20px;
+}
+.m-t-20{
+    margin-top: 20px;
+}
+.m-t-b-10{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.m-t-b-20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*****************************************
+*  Header Landing Section
+******************************************/
+
+header,.overlay{
+    height: 90%;
+}
+header .banner {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: right top;
+}
+header nav{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    color: #FFFFFF !important;
+    min-height: 30%; 
+}
+nav .brand-logo img{
+    width: 100px;
+}
+nav ul a,
+header nav ul a{
+    color: #FFFFFF !important;
+    padding: 0 25px;
+}
+nav ul a:hover{
+    background: none;
+}
+
+.lead-title{
+    text-align: center;
+}
+.lead-title h1 {
+    color: #fff;
+    font-weight: 700;
+    text-shadow: 4px 3px 3px #212121;
+    font-family: 'Roboto', sans-serif;
+}
+.lead-info{
+    padding: 2em 0;
+}
+
+.alias {
+    font-weight: 100;
+    color: #FFFFFF;
+    text-rendering: optimizeSpeed;
+    display: block;
+    margin-top: 1em;
+}
+.overlay {
+    position: absolute;
+    background: rgba(109, 119, 148, 0.33);
+    width: 100%;
+    max-width: 1440px;
+    top: 0;
+}
+.tbanner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    background-position: right top;
+}
+/*****************************************
+*  About Section
+******************************************/
+.infor {
+    border: 1px solid #bdbdbd;
+    padding: 0px !important;
+    margin: 6.5em 0 0;
+    height: 500px;
+}
+.pro-details h5 {
+    line-height: 1.5;
+    font-size: 1.3em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pro-details {
+    padding: 10px;
+    background: #009688;
+    margin: 0 0 10px;
+}
+.r-details {
+    padding: 5px 10px;
+    margin: 0;
+}
+.r-details span:first-child,
+.r-details span:last-child{
+    color: #757575;
+    display: block;
+}
+.r-details span:first-child{
+    font-size: 1em;
+}
+.r-details span:last-child{
+    font-size: 0.9em;
+}
+.r-details span:last-child i{
+    font-size: 1em;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}   
+.c-images img {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*****************************************
+*  Form 
+******************************************/
+.contact-form{
+    padding: 1em 3em 2em 0;
+}
+.form-control{
+    border-radius: 0;
+    height: 50px;
+}
+.form-control:focus {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.contact-form textarea.form-control {
+    height: 200px;
+    overflow: scroll;
+}
+/*****************************************
+*  Tables
+******************************************/
+.c-table {
+    margin: 2em 0;
+}
+/*****************************************
+*   Typography
+******************************************/
+blockquote {
+    padding-left: 1.5rem;
+    width: 50%;
+    margin: 9em auto 0;
+    position: relative;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/*****************************************
+*  Sections 
+******************************************/
+.lead-message {
+    padding: 1em 0 4em;
+    width: 60%;
+    margin: auto;
+}
+.b-lgray{
+    background: rgba(189, 189, 189, 0.14);
+}
+/*****************************************
+*  Footer
+******************************************/
+.page-footer{
+    padding: 1em 0 0;
+}
+.page-footer ul li{
+    display: inline-block;
+}
+.page-footer h5{
+    font-size: 1.2em;
+}
+.page-footer h5 small{
+  font-size: 11px;
+  font-style: italic;
+}
+.page-footer a.brand-logo img {
+    width: 50px;
+    float: left;
+    padding: 5px;
+}
+.social-link {
+    float: right;
+    padding-left: 15px !important;
+}
+.social-link li a {
+    font-size: 2em;
+    padding: 0 10px;
+}
+.social-link li a:hover{
+    color: #FFFFFF !important;
+    transition: 0.5s;
+}
+
+
+/*****************************************
+*  Refined Clasess
+******************************************/
+.review-cards{
+    background: rgba(99, 191, 131, 0.65);
+    padding: 4em 0;
+}
+.review-cards .card .card-content {
+    padding: 5px 10px;
+    border-radius: 0 0 2px 2px;
+}
+.review-cards .card .card-title {
+    font-size: 15px;
+    line-height: 1;
+    margin: 5px 0;
+}
+.review-cards .card .card-reveal{
+    padding: 10px;
+}
+.review-cards .material-icons{
+    font-size: 15px;
+}
+.review-cards .row{
+    margin: 0;
+}
+
+.review-cards .card{
+    min-height: 195px;
+}
+.review-cards .card .card-content .card-title i {
+    line-height: 14px;
+}
+.review-cards .card p a i{
+    font-size: 25px;
+    color: #757575;
+}
+.review-cards .card p a i:hover{
+    color: #BDBDBD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.card .card-content .card-title i {
+    line-height: 14px;
+}
+.review-cards .card,
+.review-cards p a{
+    font-family: "Roboto";
+}
+.card-body h5 {
+    color: #009688;
+    border-bottom: 3px solid #00796b;
+    padding-bottom: 5px;
+    width: max-content;
+}
+
+
+.pin-top {
+position: relative;
+}
+.pin-bottom {
+position: relative;
+}
+.pinned {
+position: fixed;
+}
+        
+.chip a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+/*****************************************
+*  Media Queries
+******************************************/
+
+@media (max-width: 375px) { 
+    body,html{
+        display: table;
+    }
+    header, .overlay {
+        min-height: 450px !important;
+        max-height: 65% !important;
+        width: 400px;
+    }
+    header .banner {
+        height: 290px !important;
+    }
+    .lead-title h1 {
+        position: relative;
+        top: 40px;
+        font-size: 2em !important;
+    }
+ }
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    blockquote {
+        width: 70% !important;
+        margin: 3em auto 0 !important;
+        color: #fff;
+    }
+ }
+
+@media (min-width: 1200px) {  }
+@media only screen and (min-width: 993px){
+    nav .brand-logo {
+        position: absolute;
+        color: #212121;
+        display: inline-block;
+        font-size: 2.1rem;
+        padding: 10px 15px;
+    }
+    .lead-title h1 {
+        color: #fff;
+        font-weight: 700;
+        text-shadow: 4px 3px 3px #212121;
+        font-size: 5em;
+    }
+    header .banner {
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+    }
+    blockquote {
+        width: 50%;
+        margin: 5em auto 0;
+        color: #fff;
+        font-size: 2em;
+    }
+}
+@media only screen and (min-width: 601px){
+    header nav {
+        min-height: 25%;
+        padding: 0 !important;
+    }
+     blockquote {
+        width: 50%;
+        margin: 4em auto 0;
+        color: #fff;
+    }
+}
+@media(max-width: 600px){
+    header,.overlay {
+        min-height: 400px;
+        max-height: 75%;
+    }
+    header nav {
+        min-height: 40%;
+        padding: 1em 0;
+    }
+    header .banner{
+        height: 60%;
+    }
+    .lead-title {
+        padding-top: 2em;
+    }
+    .lead-title h1 {
+        font-size: 3em;
+        width: 60%;
+        margin: auto;
+        font-weight: 200;
+    }
+    blockquote {
+        width: 100%;
+        margin: 8em auto 0;
+    }
+    .social-link{
+        margin: 10px 0;
+        width: 380px;
+        text-align: center;
+    }
+    .social-link li a {
+        font-size: 2em;
+        padding: 0 5px;
+    }
+    .lead-message {
+        width: 90%;
+    }
+    .lead-card {
+        width: 60%;
+        margin: auto;
+    }
+    .lead-card img {
+        width: 50%;
+        margin: 0 20%;
+    }
+    .infor {
+        margin: 4em 0 0;
+    }
+}
+@media only screen and (max-width: 992px){
+    nav .brand-logo {
+        top: 15%;
+    }
+}
