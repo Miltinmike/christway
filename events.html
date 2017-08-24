@@ -45,11 +45,12 @@
                                 
                             </ul>
                             <ul class="side-nav" id="mobile-demo">
-                                <li><a href="">HOME</a></li>
-                                <li><a href="">ABOUT</a></li>
-                                <li><a href="">MINISTRIES</a></li>
-                                <li><a href="">EVENTS</a></li>
-                                <li><a href="">ABOUT</a></li>
+                                <li><a href="index.html">HOME</a></li>
+                                <li><a href="about.html">ABOUT</a></li>
+                                <li><a href="ministry.html">MINISTRIES</a></li>
+                                <li><a href="hymnal.html">HYMNAL</a></li>
+                                <li><a href="events.html">EVENTS</a></li>
+                                <li><a href="contact.html">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -191,21 +192,17 @@
 <script type='text/javascript' src='assets/components/js/jquery-3.2.1.js'></script>
 <script type='text/javascript' src='assets/components/js/materialize.js'></script>
 <script>
-    
-       (function($) {
-		$(function() {
-
-            $('header .dropdown-button').dropdown({
-              //  inDuration: 300,
-                outDuration: 0,
-                hover: true, // Activate on hover
-              //  belowOrigin: true, // Displays dropdown below the button
-              //  alignment: 'right' // Displays dropdown with edge aligned to the left of button
-                }
-            );
-		}); // End Document Ready
-})(jQuery); // End of jQuery name space
-   </script>
+$(".button-collapse").sideNav({menuWidth: 200,});
+(function($) {
+    $(function() {
+        $('header .dropdown-button').dropdown({
+            outDuration: 0,
+            hover: true,
+            }
+        );
+    });
+})(jQuery);
+</script>
 <script type='text/javascript' src='assets/components/js/jquery-slim.min.js'></script>
 <script type='text/javascript' src='assets/components/js/popper.min.js'></script>
 <script type='text/javascript' src='assets/components/js/bootstrap.js'></script>
